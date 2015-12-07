@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+  <title>Jordan Rust</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("http://i.imgur.com/fZwA2Rh.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px; 
+	  text-shadow: 2px 2px #000000;
+    }
+	img {
+		width: 15%;
+		margin-top: 50px;
+		border: solid white 3px;
+		border-radius: 28px;
+	}
+	button {
+		border: 0;
+		color: white;
+		background: linear-gradient(#004de6, #000000);
+		font-family: Verdana;
+		font-weight: bold;
+		text-shadow: 2px 2px #000000;
+		border-radius: 28px;
+		padding: 10px 20px 10px 20px;
+	}
+  </style>
+</head>
+<body>
+  <img src="http://tinyurl.com/nfbzk2c">
+  <p>Hi! I'm Jordan, an aspiring Web Developer.</p>
+  <a href="about.html"><button onclick="welcome()">Enter</button></a>
+  
+  <script>
+	function welcome() {
+		var name = prompt("Please enter your name");
+		
+		if(name != null) {
+			alert("Welcome " + name);
+		}
+	}
+	//window.onload = welcome;
+  </script>
+  
+</body>
+
+
+
+
+
+
+
+
+
+
